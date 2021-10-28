@@ -18,7 +18,7 @@ resource "aws_security_group" "redis_name" {
     from_port       = 6379
     to_port         = 6379
     protocol        = "tcp"
-    description     = "CORONAVIRUS - warlen.pinheiro - SA_82642 "
+    description     = "Acesso liberado para o funcionário XXXXXXX"
     cidr_blocks     = ["192.168.X.X/32"]
   }
 
