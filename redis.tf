@@ -3,7 +3,7 @@ resource "aws_security_group" "redis_name" {
   description = "Security Group do redis name"
   vpc_id      = data.aws_vpc.niveX.id
     tags = {
-      "terraform:nivel1:vpc:sg" = "redis-name"
+      "terraform:nivelX:vpc:sg" = "redis-name"
   }
 
   ingress {
